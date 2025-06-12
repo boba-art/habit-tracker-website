@@ -4,8 +4,8 @@ window.onload = function () {
         container.innerHTML += `
             <div>
                 <label>Day ${i}: </label>
-                <button class="day-button" onclick="setResponse(${i}, true)">✅ Yes</button>
-                <button class="day-button" onclick="setResponse(${i}, false)">❌ No</button>
+                <button class="day-button" onclick="setResponse(${i}, true)">Yes</button>
+                <button class="day-button" onclick="setResponse(${i}, false)">No</button>
             </div>
         `;
     }
