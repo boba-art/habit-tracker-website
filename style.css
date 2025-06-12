@@ -1,40 +1,75 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #f0f2f5;
+    background-color: #ffeef8; 
+    font-family: 'Poppins', sans-serif;
+    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 20px;
 }
+
 
 .container {
     background: white;
     padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.3);
+    width: 320px;
     text-align: center;
+    border: 2px solid #ffb6c1;
 }
+
+h1 {
+    background-color: #ffc0cb;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
 
 input[type="text"] {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ffb6c1;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #fff0f5;
 }
 
-.day-button {
-    margin: 5px;
-}
 
 button {
-    padding: 10px 15px;
-    border: none;
-    background-color: #4caf50;
+    background-color: #ff69b4;
     color: white;
-    border-radius: 6px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 25px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
     margin-top: 10px;
 }
+
+button:hover {
+    background-color: #ff1493;
+}
+
+
+#result {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #d6336c; 
+    background-color: #ffe4f1; 
+    padding: 15px 25px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(214, 51, 108, 0.3);
+    letter-spacing: 0.05em;
+    font-family: 'Dancing Script', cursive;
+    text-transform: none;
+}
+
